@@ -4,7 +4,7 @@
  * Description: Turn page views into pipeline
  * Author: Dealfront
  * Author URI: https://www.dealfront.com/?utm_source=wordpress&utm_medium=plugin
- * Version: 1.1.0
+ * Version: 1.2.0
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
  * Text Domain: dealfront
@@ -39,7 +39,7 @@ function dealfront_plugin_init()
     /**
      * @var Const Plugin Version Number
      */
-    const VERSION = '1.1.0';
+    const VERSION = '1.2.0';
 
     /**
      * @var Singleton The reference the *Singleton* instance of this class
@@ -74,7 +74,7 @@ function dealfront_plugin_init()
     /**
      * Init the plugin after plugins_loaded so environment variables are set.
      *
-     * @since 1.1.0
+     * @since 1.2.0
      */
     public function init()
     {
@@ -97,7 +97,7 @@ function dealfront_plugin_init()
     /**
      * Updates the plugin version in db
      *
-     * @since 1.1.0
+     * @since 1.2.0
      */
     public function update_plugin_version()
     {
@@ -108,7 +108,7 @@ function dealfront_plugin_init()
     /**
      * Handles upgrade routines.
      *
-     * @since 1.1.0
+     * @since 1.2.0
      */
     public function install()
     {
@@ -125,7 +125,7 @@ function dealfront_plugin_init()
     /**
      * Adds plugin action links.
      *
-     * @since 1.1.0
+     * @since 1.2.0
      */
     public function add_settings_link($links, $file)
     {

@@ -2,8 +2,8 @@
 Contributors: [dealfront](https://wordpress.org/support/users/dealfront/)
 Tags: dealfront, leadfeeder, website analytics, website visitor identification, b2b lead generation
 Requires at least: 4.6
-Tested up to: 6.4
-Stable tag: 1.1.0
+Tested up to: 6.8
+Stable tag: 1.2.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
