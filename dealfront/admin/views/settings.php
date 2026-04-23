@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
     <div id="message" class="notice notice-success is-dismissible">
       <p>
         <strong>
-          Leadfeeder tracker installed successfully. <a href="https://app.dealfront.com/l/install-tracker" target="_blank">Go to Leadfeeder</a>
+          Leadfeeder tracker installed successfully. <a href="https://app.leadfeeder.com/l/install-tracker" target="_blank">Go to Leadfeeder</a>
         </strong>
       </p>
     </div>
@@ -30,9 +30,9 @@ if (!defined('ABSPATH')) {
 
 <div id="business-info-wrap" class="wrap">
   <div class="wp-header">
-    <img src="<?php echo esc_url(plugins_url('../static/Lf+by+df-Logo.svg', __FILE__)); ?>" alt="Dealfront"
+    <img src="<?php echo esc_url(plugins_url('../static/leadfeeder-logo.svg', __FILE__)); ?>" alt="Leadfeeder"
       class="dealfront-logo" />
-    <div class="large-text gutter-bottom">Turn page views into pipeline</div>
+    <div class="large-text-lf gutter-bottom">Turn page views into pipeline</div>
     <span>
       Identify anonymous companies visiting your website and automatically send them to your CRM for sales teams to
       convert.
@@ -46,7 +46,7 @@ if (!defined('ABSPATH')) {
     <div id="dealfront-form-area">
       <ol>
         <li>
-          Visit the <a href="https://app.dealfront.com/l/install-tracker" target="_blank">website tracker settings in Leadfeeder</a> to find your unique tracker ID.
+          Visit the <a href="https://app.leadfeeder.com/l/install-tracker" target="_blank">website tracker settings in Leadfeeder</a> to find your unique tracker ID.
         </li>
         <li>Enter the tracker ID below to start identifying companies visiting your website.</li>
       </ol>
@@ -76,14 +76,14 @@ if (!defined('ABSPATH')) {
     <span>
       <?php submit_button("Save Changes", "primary", "submit", false); ?>
       <?php if (esc_attr(get_option('leadfeeder_tracker_id'))): ?>
-        <a href="https://app.dealfront.com/l/install-tracker" target="_blank" class="dealfront-secondary-button">Go to Leadfeeder</a>
+        <a href="https://app.leadfeeder.com/l/install-tracker" target="_blank" class="dealfront-secondary-button">Go to Leadfeeder</a>
       <?php endif; ?>
     </span>
 
     <div class="large-gutter-bottom"></div>
 
     <div>
-      Facing issues? <a href="https://help.dealfront.com/en/articles/3749362-installing-the-leadfeeder-tracker-on-a-wordpress-website" target="_blank">Visit our help center</a>
+      Facing issues? <a href="https://help.leadfeeder.com/en/articles/3749362-installing-the-leadfeeder-tracker-on-a-wordpress-website" target="_blank">Visit our help center</a>
     </div>
   </form>
 </div>

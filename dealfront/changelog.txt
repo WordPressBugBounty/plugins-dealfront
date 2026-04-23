@@ -5,3 +5,14 @@
 ### Enhancements
 - Improved Navigation: on saving the tracker id, a button will be available to go to the Leadfeeder app
 - Help Link: a link at the bottom of the page that takes to the Help Center article
+
+## [1.2.0] - 2025-07-23
+
+### Enhancements
+- Added support for WordPress 6.8
+
+## [1.3.0] - 2026-04-23
+
+### Enhancements
+- Updated plugin description and FAQ copy
+- Refreshed plugin banner assets

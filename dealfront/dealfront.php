@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Leadfeeder by Dealfront
+ * Plugin Name: Leadfeeder
  * Description: Turn page views into pipeline
- * Author: Dealfront
- * Author URI: https://www.dealfront.com/?utm_source=wordpress&utm_medium=plugin
- * Version: 1.2.0
+ * Author: Leadfeeder
+ * Author URI: https://www.leadfeeder.com/?utm_source=wordpress&utm_medium=plugin
+ * Version: 1.3.0
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
  * Text Domain: dealfront
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
 
 define(
   'DEALFRONT_PLUGIN_MENU_LABEL',
-  'Leadfeeder by Dealfront'
+  'Leadfeeder'
 );
 
 define(
@@ -39,7 +39,7 @@ function dealfront_plugin_init()
     /**
      * @var Const Plugin Version Number
      */
-    const VERSION = '1.2.0';
+    const VERSION = '1.3.0';
 
     /**
      * @var Singleton The reference the *Singleton* instance of this class
