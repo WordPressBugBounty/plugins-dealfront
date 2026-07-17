@@ -3,7 +3,7 @@ Contributors: [dealfront](https://wordpress.org/support/users/dealfront/)
 Tags: leadfeeder, website analytics, website visitor identification, b2b lead generation
 Requires at least: 4.6
 Tested up to: 6.8
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -102,6 +102,9 @@ It uses our proprietary data and combines it with millions of external signals a
 Every month around 20% of the database changes, so updating it on a daily basis is important.
 
 == Changelog ==
+
+= 1.3.1 =
+* Fixed a PHP deprecation notice (FILTER_SANITIZE_STRING) on PHP 8.1 and newer.
 
 = 1.3.0 =
 * Updated plugin description and FAQ copy.

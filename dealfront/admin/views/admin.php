@@ -41,7 +41,7 @@ class Dealfront
 
   public static function dealfront_script()
   {
-    $leadfeeder_tracker_id = filter_var(get_option('leadfeeder_tracker_id'), FILTER_SANITIZE_STRING);
+    $leadfeeder_tracker_id = sanitize_text_field(get_option('leadfeeder_tracker_id'));
     $is_admin = is_admin();
 
     if (!$leadfeeder_tracker_id) {
